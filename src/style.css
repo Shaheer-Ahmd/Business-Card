@@ -1,0 +1,100 @@
+*{
+    font-family: Inter, sans-serif;
+    color:whitesmoke;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.Info > img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top: 15px;
+    }
+
+.Info >button {
+
+
+    background-color: rgb(45, 44, 44);
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+
+.Info>button>a{
+    text-decoration: none;
+}
+
+.Info >h1,h2,h3 {
+    margin: 10px 0px;
+}
+
+.Info >h2 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.Info >h3 {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.About >* {
+    margin: 10px 0px;
+}
+
+.App {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-radius: 30px;    
+    width:290px;
+    margin: 50px auto;
+    padding-left:35px;
+
+    
+    background-color: rgb(45, 44, 44);
+  
+    
+    
+    }
+
+
+body{
+    background-color: dimgray;
+    }
+.logos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width:auto;
+    
+}
+.logos >a >img {
+
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    padding: 10px 20px;
+}
+
+.About{
+ 
+    width: 250px;
+}
+
+/* .App >* {
+    margin-left:auto;
+    margin-right:auto;
+} */
