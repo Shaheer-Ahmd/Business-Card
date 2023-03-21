@@ -1,1 +1,1 @@
-This was my first experience using React to make a web dev project.
+First Time using React to make a static web app.
